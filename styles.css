@@ -3,6 +3,11 @@
   background-color: antiquewhite;
 }
 
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
 #header-img {
   max-width: 250px;
 }
@@ -13,9 +18,5 @@
   }
 }
 /*  running tests
-Each .nav-link element should link to a corresponding element on the landing page (has an href with a value of another element's id. e.g. #footer).
-You should have a video or iframe element with an id of video.
-Your #video should have a src attribute.
-Your #email should use HTML5 validation by setting its type to email.
-Your Product Landing Page should use at least one media query.
+
 Your Product Landing Page should use CSS Flexbox at least once. */
